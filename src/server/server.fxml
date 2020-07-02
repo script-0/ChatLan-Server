@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="server.serverController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label fx:id="label" alignment="CENTER" layoutX="-2.0" layoutY="120.0" prefHeight="28.0" prefWidth="320.0" text="Server starting ...">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <JFXSpinner fx:id="spinner" layoutX="110.0" layoutY="40.0" prefHeight="65.0" prefWidth="81.0" />
+    </children>
+</AnchorPane>
